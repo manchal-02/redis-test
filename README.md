@@ -113,7 +113,7 @@ sudo pip3 install flask
 ```bash
 sudo apt-get install redis-server
 ```
-8. Add this line `bind 0.0.0.0` to the `redis.conf` file inside `/etc/redis/`
+8. Add this line `bind 0.0.0.0` to the `redis.conf` file inside `/etc/redis/` and then start redis.
 ```bash
 sudo systemctl start redis-server
 sudo systemctl enable redis-server
